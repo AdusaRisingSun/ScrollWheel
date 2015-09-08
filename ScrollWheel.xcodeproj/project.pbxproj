@@ -15,6 +15,8 @@
 		39F1558C1B968561004D8C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F1558B1B968561004D8C62 /* Images.xcassets */; };
 		39F1558F1B968561004D8C62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F1558D1B968561004D8C62 /* LaunchScreen.xib */; };
 		39F1559B1B968561004D8C62 /* ScrollWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1559A1B968561004D8C62 /* ScrollWheelTests.m */; };
+		39F155A51B9685C6004D8C62 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F155A41B9685C6004D8C62 /* 5.png */; };
+		39F155A81B968665004D8C62 /* ScrollWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F155A71B968665004D8C62 /* ScrollWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		39F155941B968561004D8C62 /* ScrollWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F155991B968561004D8C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F1559A1B968561004D8C62 /* ScrollWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollWheelTests.m; sourceTree = "<group>"; };
+		39F155A41B9685C6004D8C62 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		39F155A61B968665004D8C62 /* ScrollWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollWheel.h; sourceTree = "<group>"; };
+		39F155A71B968665004D8C62 /* ScrollWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,9 @@
 				39F155801B968561004D8C62 /* AppDelegate.m */,
 				39F155851B968561004D8C62 /* ViewController.h */,
 				39F155861B968561004D8C62 /* ViewController.m */,
+				39F155A61B968665004D8C62 /* ScrollWheel.h */,
+				39F155A71B968665004D8C62 /* ScrollWheel.m */,
+				39F155A41B9685C6004D8C62 /* 5.png */,
 				39F155881B968561004D8C62 /* Main.storyboard */,
 				39F1558B1B968561004D8C62 /* Images.xcassets */,
 				39F1558D1B968561004D8C62 /* LaunchScreen.xib */,
@@ -203,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F1558A1B968561004D8C62 /* Main.storyboard in Resources */,
+				39F155A51B9685C6004D8C62 /* 5.png in Resources */,
 				39F1558F1B968561004D8C62 /* LaunchScreen.xib in Resources */,
 				39F1558C1B968561004D8C62 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F155A81B968665004D8C62 /* ScrollWheel.m in Sources */,
 				39F155811B968561004D8C62 /* AppDelegate.m in Sources */,
 				39F155841B968561004D8C62 /* ScrollWheel.xcdatamodeld in Sources */,
 				39F155871B968561004D8C62 /* ViewController.m in Sources */,
